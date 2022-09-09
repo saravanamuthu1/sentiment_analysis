@@ -31,4 +31,14 @@
    
    accuracy on the test_set: 0.5253
    
+   2. Anything Goes Approach
+
+For the anything goes approach, we implemented the sentiment analysis using pre defined machine learning and deep learning library algorithms. In our method, we have compared Naive Bayes, Logistic Regression and Neural Network (LSTM).
+
+It is observed that the accuracy of Naive Bayes is greater than the LSTM.
+
+Data Preprocessing:
+
+Before giving the text data as an input to these models, data pre processing is always done to ensure the models can run efficiently without any errors. For this, the text data is cleaned initially. Things like punctuations, whitespaces, emoji's, numbers are all removed from the dataset. It is then stemmed and lemmatized. After this, the dataset is vectorised in order to represent it in the form of a vector and is then tokenized so it is converted into a format that can be given as an input to the model. This tokenized format of the sequence is then padded for allowing it to be of the same length which is further split into the training and testing sets. This is then given as the input to the models. 
+   
    
