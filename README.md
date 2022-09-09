@@ -54,3 +54,6 @@ LSTM:
 Long Short-Term Memory (LSTM) networks are a type of recurrent neural network capable of learning order dependence in sequence prediction problems.  LSTM has feedback connections. Such a recurrent neural network (RNN) can process not only single data points (such as images), but also entire sequences of data (such as speech or video). For LSTM, we used sigmoid as the activation function, binary_crossentropy as the loss function, adam as the optimizer and accuracy score for the measuring metric. LSTM gave an accuracy of 0.5020 on the training dataset and 0.5200 accuracy for the testing dataset. 
 
 Overall, it is observed that different models work on their own criteria depending upon the use cases like data size, data type and the goal of the analysis. We did find a lot of issue in the accuracy. We expected it to be more but I think there are certain reasons why the accuracy was around 50%. Maybe, in the future, we might have to tweek and tune the model more so that it's efficiency is more, resulting in higher accuracy. 
+
+
+reference:https://medium.com/nerd-for-tech/illustrated-naive-bayes-implementation-from-scratch-for-sentiment-analysis-63c4bcab6053
