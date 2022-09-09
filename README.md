@@ -7,7 +7,7 @@
   1.naive_bayes a standard approach
   2.sentiment_analysis (slightly modified approach)
    
-   1. sentiment analysis(slightly modified approach
+   1. #sentiment analysis(slightly modified approach
    pre-Prcoessing
     we have done pre processing only for the trianing data set 
     we have removed numbers from the data set, extra special characters.  we also trimmed exrtra white spaces. since it is not any known languages we cannot able reduce the stop word. we also tried clipping but ti deos decrease the accuracy so we avoided.
@@ -21,7 +21,7 @@
     A the end of the predict fucntion i will be left with two socre for a single tweet.
     each tweet will have probability of sentence to be positive and porbability of sentence to be nagative . i will find the maximum of two and will predict.
     
-   Navie bayes standard approach
+   2.#Navie bayes standard approach
    logprior = np.log(d_pos) - np.log(d_neg)
    Both are almost the ssame the only way it differece, here at the end i will predict if my predicted score is greate than logprior value i will conclude it as psotive or else negative,  
    In the standard approach we used log probabilities to avoid underflow values.
