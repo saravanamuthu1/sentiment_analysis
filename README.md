@@ -17,4 +17,13 @@
    we first segeregate postive tweets and negative tweets, and then i will find the tolal number of words in the positive corpus and negative corpus. i will throw all the psotive words in one bag and negative words in bad along with their frequency.
  
   To predict
-    i will loop through all the words in the sentence and i will find two score for every word and
+    i will loop through all the words in the sentence and i will find two score for every word and multiply all the indicidual probability
+    A the end of the predict fucntion i will be left with two socre for a single tweet.
+    each tweet will have probability of sentence to be positive and porbability of sentence to be nagative . i will find the maximum of two and will predict.
+    
+   Navie bayes standard approach
+   logprior = np.log(d_pos) - np.log(d_neg)
+   Both are almost the ssame the only way it differece, here at the end i will predict if my predicted score is greate than logprior value i will conclude it as psotive or else negative,  
+   In the standard approach we used log probabilities to avoid underflow values.
+   
+   
