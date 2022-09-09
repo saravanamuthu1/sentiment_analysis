@@ -3,12 +3,18 @@
   Scratch approach:
 
   Aim of the model is to find whether a tweet referred as a postive sentiment or negative sentiment using Navie Bayes
-  The naive bayes classfier is one of the simple probabilistic classifier used for processing text.
+  The naive bayes classfier is one of the simple probabilistic classifier used for processing text. we implemeted two methodds for naive bayes from scract
+  1.naive_bayes a standard approach
+  2.sentiment_analysis (slightly modified approach)
    
+   1. sentiment analysis(slightly modified approach
    pre-Prcoessing
     we have done pre processing only for the trianing data set 
     we have removed numbers from the data set, extra special characters.  we also trimmed exrtra white spaces. since it is not any known languages we cannot able reduce the stop word. we also tried clipping but ti deos decrease the accuracy so we avoided.
     
    Fitting the model
    i will find the total number of uniques tokens in the whole coropus 
-   we first segeregate psotive tweets and negative tweets, and then i will find the tolal number of words in the positive corpus and negative corpus.
+   we first segeregate postive tweets and negative tweets, and then i will find the tolal number of words in the positive corpus and negative corpus. i will throw all the psotive words in one bag and negative words in bad along with their frequency.
+ 
+  To predict
+    i will loop through all the words in the sentence and i will find two score for every word and
