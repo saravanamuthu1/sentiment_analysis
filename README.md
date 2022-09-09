@@ -3,7 +3,7 @@
   Scratch approach:
 
   Aim of the model is to find whether a tweet referred as a postive sentiment or negative sentiment using Navie Bayes
-  The naive bayes classfier is one of the simple probabilistic classifier used for processing text. we implemeted two methodds for naive bayes from scract
+  The naive bayes classfier is one of the simple probabilistic classifier used for processing text. we implemeted two methodds for naive bayes from scratch.
 
 1.sentiment_analysis (slightly modified approach)
 2.naive_bayes a standard approach
