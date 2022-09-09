@@ -16,6 +16,8 @@
    Fitting the model
    i will find the total number of uniques tokens in the whole coropus 
    we first segeregate postive tweets and negative tweets, and then i will find the tolal number of words in the positive corpus and negative corpus. i will throw all the psotive words in one bag and negative words in bad along with their frequency.
+   
+   accuracy on the test_set: 0.5991
  
   To predict
     i will loop through all the words in the sentence and i will find two score for every word and multiply all the indicidual probability
@@ -26,5 +28,7 @@
    logprior = np.log(d_pos) - np.log(d_neg)
    Both are almost the ssame the only differece is , here at the end i will predict if my predicted score is greate than logprior value i will conclude it as psotive or else negative,  
    In the standard approach we used log probabilities to avoid underflow values.
+   
+   accuracy on the test_set: 0.5253
    
    
