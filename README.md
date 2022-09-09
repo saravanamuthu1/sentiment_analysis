@@ -31,7 +31,7 @@
    
    accuracy on the test_set: 0.5253
    
-   2. Anything Goes Approach
+   #2. Anything Goes Approach
 
 For the anything goes approach, we implemented the sentiment analysis using pre defined machine learning and deep learning library algorithms. In our method, we have compared Naive Bayes, Logistic Regression and Neural Network (LSTM).
 
