@@ -41,4 +41,14 @@ Data Preprocessing:
 
 Before giving the text data as an input to these models, data pre processing is always done to ensure the models can run efficiently without any errors. For this, the text data is cleaned initially. Things like punctuations, whitespaces, emoji's, numbers are all removed from the dataset. It is then stemmed and lemmatized. After this, the dataset is vectorised in order to represent it in the form of a vector and is then tokenized so it is converted into a format that can be given as an input to the model. This tokenized format of the sequence is then padded for allowing it to be of the same length which is further split into the training and testing sets. This is then given as the input to the models. 
    
-   
+ Logistic Regression:
+ 
+Logistic Regression is a linear model that estimates the probability of an event occurring, such as voted or didn't vote, based on a given dataset of independent variables. Since the outcome is a probability, the dependent variable is bounded between 0 and 1. It is a discriminative classifier. For this model, the accuracy was 0.5125625.
+
+Naive Bayes:
+
+Naive Bayes methods are a set of supervised learning algorithms based on applying Bayes’ theorem with the “naive” assumption of conditional independence between every pair of features given the value of the class variable. There are different types of Naive Bayes algorithm but the one that we have used here is the Gaussian NB. The accuracy for this model is approximately 0.82 which is really way better than the other two models trained.
+
+LSTM:
+
+Long Short-Term Memory (LSTM) networks are a type of recurrent neural network capable of learning order dependence in sequence prediction problems.  LSTM has feedback connections. Such a recurrent neural network (RNN) can process not only single data points (such as images), but also entire sequences of data (such as speech or video). For LSTM, we used sigmoid as the activation function, binary_crossentropy as the loss function, adam as the optimizer and accuracy score for the measuring metric. LSTM gave an accuracy of 0.5020 on the training dataset and 0.5200 accuracy for the testing dataset. 
