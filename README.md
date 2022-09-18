@@ -29,7 +29,7 @@
    Both are almost the ssame the only differece is , here at the end i will predict if my predicted score is greate than logprior value i will conclude it as psotive or else negative,  
    In the standard approach we used log probabilities to avoid underflow values.
    
-   accuracy on the test_set: 0.5253
+   accuracy on the test_set: 0.781
    
 # Anything Goes Approach
 
